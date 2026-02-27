@@ -1,0 +1,228 @@
+:root {
+
+  /*Referenciando Design-system*/
+  
+  /*ESTAS SON TODOS LOS FONDOS DE PANTALLA*/
+  .bg-entrada {
+  min-height: 100vh;
+  background-image: url('../ASS/entrada.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-desicion-1 {
+  background-image: url('../ASS/Camino.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-mercado {
+  background-image: url('../ASS/Mercado.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-compra {
+  background-image: url('../ASS/Ladron.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.bg-cueva { 
+  background-image: url('../ASS/Huella.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-final1 {
+  background-image: url('../ASS/Anillo.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.bg-final2 {
+  background-image: url('../ASS/Solo.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.bg-goblins {
+  background-image: url('../ASS/Goblins.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bg-goblin {
+  background-image: url('../ASS/Goblin.jpg');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.bg-tablero { 
+  background-image: url('../ASS/Tablero.png');
+  min-height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+
+/*-------------Aqui terminan los findos ----------------*/ 
+
+/*----------- Cuadros-------------*/
+.cuadro-footer {
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+
+  width: 100%;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--text-blanco);
+
+  text-align: center;
+  padding: 8px 0;      
+  font-size: 0.9rem;
+
+  backdrop-filter: blur(3px);
+}
+/*Fondo transparente*/
+.cuadro-texto {
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.6); 
+}
+/*Fondo transparente pero negro*/
+.cuadro-textonegro {
+  width: 100%;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.6); 
+}
+
+/*----------- botones-------------*/
+.btn {
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  transition: 0.3s ease;
+}
+
+.btn img:hover {
+  transform: scale(1.5);
+}
+ /*----------- textos-------------*/
+    .Titulo {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    font-family: Papyrus, sans-serif;
+    }
+   
+    .Subtitulo {
+    font-size: 3.4rem;
+    margin-bottom: 20px;
+    font-family: Papyrus, sans-serif;
+    font-weight: bolder;
+    }
+
+    .texto {
+    font-size: 1.7rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+      .texto-grande {
+    font-size: 2.5rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        font-family: 'Times New Roman', Times, serif, sans-serif;
+        }
+    .texto-btn {
+    font-size: 1rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        }
+    .texto-gris {
+    font-size: 1.7rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        color: rgb(102, 100, 100);
+        }
+    .texto-blanco {
+    font-size: 1.7rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        color: var(--text-blanco);
+        }
+    .texto-blancop {
+    font-size: 0.8rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+        color: var(--text-blanco);
+        }
+
+  /* Animacion de prueba */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+  /*CAJAS */
+  .card-light {
+  background-color: var(--color-secondary-light);
+  color: var(--text-primary);
+
+  width: 400px;
+  padding: 20px;
+
+  border-radius: 12px;
+  border: 2px solid var(--color-primary);
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.card-dark {
+  background-color: var(--background-alt);
+  color: var(--text-blanco);
+
+  width: 400px;
+  padding: 20px;
+
+  border-radius: 12px;
+  border: 2px solid var(--color-primary-light);
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+.link-nav {
+  font-size: 1.7rem;
+  color: var(--text-blanco);
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.link-nav:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+}

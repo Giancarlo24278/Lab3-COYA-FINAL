@@ -1,0 +1,19 @@
+:root {
+  /*COLORES PRINCIPALES*/
+  --color-primary: #D4B483; 
+  --color-secondary: #CCC1B8;      
+
+  /*VARIACIONES*/
+  --color-primary-light: #DBBF95;  
+
+  --color-secondary-light: #D4CBC4;
+
+  /* ===== COLORES DE TEXTO ===== */
+  --text-primary: #000000;         
+  --text-secondary: #4A4A4A;    
+  --text-blanco: #ffffff;          
+
+  /* ===== FONDOS ===== */
+  --background-main: #ffffff;
+  --background-alt: #4A4A4A;
+}
